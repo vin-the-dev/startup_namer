@@ -1,4 +1,0 @@
-#Thu Apr 05 15:55:29 IST 2018
-base.0=/Users/thomasjohn/Documents/GitHub/startup_namer/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

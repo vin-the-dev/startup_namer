@@ -41,7 +41,7 @@ Widget listView(BuildContext context) {
             );
           }),
       new SizedBox(
-        height: 10.0,
+        height: 20.0,
       ),
       new TextField(
         decoration: InputDecoration(labelText: 'Customer'),

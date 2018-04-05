@@ -103,7 +103,8 @@ class _HomePageState extends State<HomePage> {
         tooltip: 'Add',
         child: Icon(Icons.add),
         onPressed: () {
-          Navigator.of(context).pushNamed(ServiceEntry.tag);
+          // Navigator.of(context).pushNamed(ServiceEntry.tag);
+          Navigator.popAndPushNamed(context, ServiceEntry.tag);
         },
       ),
     );

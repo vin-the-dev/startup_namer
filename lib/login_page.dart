@@ -78,7 +78,8 @@ class _LoginPageState extends State<LoginPage> {
           onPressed: () {
             // getData();
             _setUserName();
-            Navigator.of(context).pushNamed(HomePage.tag);
+            // Navigator.of(context).pushNamed(HomePage.tag);
+            Navigator.pushNamed(context, HomePage.tag);
           },
           color: Colors.lightBlueAccent,
           child: Text('Login', style: TextStyle(color: Colors.white)),
